@@ -1,0 +1,18 @@
+{
+	"name": "internet-speedtest",
+	"version": "1.0.0",
+	"description": "Tool to periodically test your internet connections' speed",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dylankenneally/internet-speedtest.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"speedtest-net": "^1.5.1"
+	}
+}
