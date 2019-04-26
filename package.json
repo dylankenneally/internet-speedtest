@@ -4,7 +4,8 @@
 	"description": "Tool to periodically test your internet connections' speed",
 	"main": "index.js",
 	"scripts": {
-		"start": "node index.js"
+		"start": "node index.js",
+		"startForever": "npx forever index.js"
 	},
 	"repository": {
 		"type": "git",
@@ -14,5 +15,8 @@
 	"license": "MIT",
 	"dependencies": {
 		"speedtest-net": "^1.5.1"
+	},
+	"devDependencies": {
+		"forever": "^1.0.0"
 	}
 }
